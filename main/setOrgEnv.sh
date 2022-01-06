@@ -1,6 +1,4 @@
-#!/bin/bash
-#
-# SPDX-License-Identifier: Apache-2.0
+
 
 
 
@@ -8,11 +6,11 @@
 # default to using Org1
 ORG=${1:-Org1}
 
-# Exit on first error, print all commands.
+
 set -e
 set -o pipefail
 
-# Where am I?
+
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )"
 
 ORDERER_CA=${DIR}/test-network/organizations/ordererOrganizations/example.com/orderers/orderer.example.com/msp/tlscacerts/tlsca.example.com-cert.pem
