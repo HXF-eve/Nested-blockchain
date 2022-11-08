@@ -1,7 +1,7 @@
 # NestedChain
 # Read me
 
-The project is a nested blockchain system.  It consists of 1 main chain with 3 peer nodes and 3 sub chains with 2,2,3 peer nodes respectively. The network is muti-machine deployment.
+The project is the implementation of the nested blockchain system which consists of 1 main chain with 3 peer nodes and 3 sub chains with 2,2,3 peer nodes respectively. The network is a muti-machine deployment with 3 ali-cloud ECSs.
 
 
 
@@ -11,7 +11,7 @@ The project is a nested blockchain system.  It consists of 1 main chain with 3 p
 
 2.docker-compose
 
-3.fabric-network
+3.fabric(including faric samples, faric-ca, fabric binaries and images)
 
 4.fabric-gateway
 
