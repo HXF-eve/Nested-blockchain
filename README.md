@@ -21,7 +21,9 @@ The project is the implementation of the nested blockchain system which consists
 
 ### Process
 
-Step1: Start the host
+Step1: Start the hosts
+
+cd main
 
 Docker-swarm configuration of the following ports :
 
@@ -53,16 +55,15 @@ Copy the entire directory 'crypto config'  to other hosts
 
 
 
-Step4: Start the docker compose
+Step4: Start the docker compose to activate peer nodes and order nodes.
 
 ```
 # from PC -1,
 docker-compose -f pc1.yaml up -d#
 docker-compose -f pc2.yaml up -d#
 docker-compose -f pc3.yaml up -d#
+$from PC -2,
 ```
-
-To start the peer nodes and order nodes 
 
 
 
